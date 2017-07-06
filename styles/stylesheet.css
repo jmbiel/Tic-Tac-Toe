@@ -1,0 +1,51 @@
+html, body {
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#heading1 {
+    font-family: 'Lobster', cursive;
+    font-size: 250%;
+    color: black;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+#subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75%;
+    color: black;
+    text-align: center;
+    bottom: 50px;
+    padding-top: -50px;
+}
+
+.gameboard {
+    margin: 0 auto;
+    display: table;
+    width: 307px;
+    height: 300px;
+    border: 1px solid #000;
+}
+
+.row {
+    display: table-row;
+    height: 50%
+}
+
+.cell1, .cell2, .cell3 {
+    display: table-cell;
+    width:100px;
+    height:100px;
+    border:1px solid #CCC;
+    float: left;
+}
+
+.button {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
