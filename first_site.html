@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head id="h1">
+        <link href="styles/stylesheet.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <title>Max's Tic Tac Toe</title>
+    </head>
+    <body>
+        <div class=container>
+            <div class=container>
+                <h2 id="heading1">Welcome to Tic-Tac-Toe!</h1>
+            </div>
+            <div class=container>
+                <h1 id="subtitle">Written and Coded by Max Biel.</h1>
+            </div>
+        </div>
+        <noscript>This page requires javascript in order to run.</noscript>
+        <div class="gameboard">
+            <div class="row">
+                <div class="cell1" id="cell_1" onclick="fill_cell(0, 0, 'cell_1')"></div>
+                <div class="cell2" id="cell_2" onclick="fill_cell(0, 1, 'cell_2')"></div>
+                <div class="cell3" id="cell_3" onclick="fill_cell(0, 2, 'cell_3')"></div>
+            </div>
+            <div class="row">
+                <div class="cell1" id="cell_4" onclick="fill_cell(1, 0, 'cell_4')"></div>
+                <div class="cell2" id="cell_5" onclick="fill_cell(1, 1, 'cell_5')"></div>
+                <div class="cell3" id="cell_6" onclick="fill_cell(1, 2, 'cell_6')"></div>
+            </div>
+            <div class="row">
+                <div class="cell1" id="cell_7" onclick="fill_cell(2, 0, 'cell_7')"></div>
+                <div class="cell2" id="cell_8" onclick="fill_cell(2, 1, 'cell_8')"></div>
+                <div class="cell3" id="cell_9" onclick="fill_cell(2, 2, 'cell_9')"></div>
+            </div>
+        </div>
+        <div class=button>
+            <button onclick="clear_board()">New Game</button>
+        </div>
+        <script src="scripts/main.js"></script>
+    </body>
+    </head>
+</html>
